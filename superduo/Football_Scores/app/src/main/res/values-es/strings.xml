@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Actions -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_share">Acerca de</string>
+
+
+    <!-- Dates -->
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="tomorrow">Mañana</string>
+
+
+    <!-- Leagues -->
+    <string name="match_day">Partido</string>
+    <string name="champions_league">Liga de Campeones de la UEFA</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="premier_league">Premier League</string>
+    <string name="primera_division">Primera Division</string>
+    <string name="segunda_division">Segunda Division</string>
+    <string name="seria_a">Serie A</string>
+
+
+    <!-- About -->
+    <string name="about">Acerca de</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="about_text">
+        Esta aplicación llegar partidos de fútbol Puntuación de la Premier League, Serie A, Bundesliga, Liga BBVA
+         y de la Liga de Campeones de la UEFA.
+         Todos los datos de Partidos se adquieren de API gratuita football-data.org.
+         Todos los logotipos de los equipos son adquiridos de http://hdlogo.wordpress.com/ al solicitar formulario de permiso del propietario.
+         La versión original de esta aplicación fue creada por Yahia Khalid Ibn El Walid Ahmed, y una versión modificada se da a los estudiantes en el programa Udacity Android Nanodegree.
+         Para informar de cualquier error o sugerencias no dude en enviar un correo a ykibnelwalid@gmail.com.
+
+         Durante la temporada baja, se añadirán los datos falsos para la aplicación.
+    </string>
+
+
+    <!-- Help texts -->
+    <string name="no_fixtures_for_day">No hay partidos para este día.</string>
+    <string name="team_crest">Emblema de equipo</string>
+
+</resources>

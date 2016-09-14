@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/portfolio_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/spotify_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/portfolio_txt"
+        android:layout_alignLeft="@+id/portfolio_txt"
+        android:layout_alignRight="@+id/portfolio_txt"
+        android:layout_alignStart="@+id/portfolio_txt"
+        android:layout_below="@+id/portfolio_txt"
+        android:layout_marginTop="25dp"
+        android:background="@color/blue"
+        android:text="@string/spotify_btn" />
+
+    <Button
+        android:id="@+id/super_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spotify_btn"
+        android:layout_alignLeft="@+id/spotify_btn"
+        android:layout_alignRight="@+id/spotify_btn"
+        android:layout_alignStart="@+id/spotify_btn"
+        android:layout_below="@+id/spotify_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:text="@string/super_btn" />
+
+    <Button
+        android:id="@+id/built_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/super_btn"
+        android:layout_alignLeft="@+id/super_btn"
+        android:layout_alignRight="@+id/super_btn"
+        android:layout_alignStart="@+id/super_btn"
+        android:layout_below="@+id/super_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow"
+        android:text="@string/built_btn" />
+
+    <Button
+        android:id="@+id/xyz_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/built_btn"
+        android:layout_alignLeft="@+id/built_btn"
+        android:layout_alignRight="@+id/built_btn"
+        android:layout_alignStart="@+id/built_btn"
+        android:layout_below="@+id/built_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/orange"
+        android:text="@string/xyz_btn" />
+
+    <Button
+        android:id="@+id/capstone_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/xyz_btn"
+        android:layout_alignLeft="@+id/xyz_btn"
+        android:layout_alignRight="@+id/xyz_btn"
+        android:layout_alignStart="@+id/xyz_btn"
+        android:layout_below="@+id/xyz_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/red"
+        android:text="@string/capstone_btn" />
+
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/author"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</RelativeLayout>

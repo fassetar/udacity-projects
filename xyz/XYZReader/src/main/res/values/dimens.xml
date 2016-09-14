@@ -1,0 +1,13 @@
+<resources>
+    <!-- detail -->
+    <dimen name="title_margin">16dp</dimen>
+    <dimen name="title_margin_start">48dp</dimen>
+
+    <dimen name="list_side_margin">16dp</dimen>
+
+    <dimen name="header_padding_sides">16dp</dimen>
+    <dimen name="header_padding_spacer">24dp</dimen>
+
+    <dimen name="fab_margin">24dp</dimen>
+
+</resources>

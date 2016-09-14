@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">"My App Portfolio"</string>
+    <string name="spotify_btn">SPOTIFY STREAMER</string>
+    <string name="super_btn">SUPER DUO</string>
+    <string name="built_btn">BUILD IT BIGGER</string>
+    <string name="xyz_btn">XYZ READER</string>
+    <string name="capstone_btn">CAPSTONE</string>
+    <string name="author">By Anthony Fassett</string>
+    <string name="title_activity_spotify_stream">Spotify Streamer</string>
+    <string name="artist_search_hint">Enter an artist name</string>
+    <string name="track_title">Top Tracks</string>
+    <string name="empty_results">No results</string>
+    <string name="artist_description">Artist Art</string>
+    <string name="album_description">Album Art</string>
+    <string name="action_now_playing">Now Playing</string>
+    <string name="no_network">No internet?</string>
+</resources>
